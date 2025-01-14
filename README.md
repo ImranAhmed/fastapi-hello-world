@@ -80,6 +80,32 @@
 
    Open your browser and go to `http://127.0.0.1:8000` to see the "Hello, World!" message.
 
+## 🧪 Running Unit Tests
+
+To run the unit tests for this FastAPI application, follow these steps:
+
+1. **Ensure all dependencies are installed:**
+
+   Make sure you have installed all the dependencies listed in `requirements.txt`, including `pytest` and `httpx`.
+
+2. **Run the tests using `pytest`:**
+
+   Execute the following command in your terminal to run all tests:
+
+   ```bash
+   pytest
+   ```
+
+   To run a specific test file, use:
+
+   ```bash
+   pytest main_test.py
+   ```
+
+3. **View the test results:**
+
+   `pytest` will display the results in the terminal, showing which tests passed or failed.
+
 ---
 
 For more information on how to use FastAPI, visit the [official FastAPI documentation](https://fastapi.tiangolo.com/).
