@@ -60,3 +60,7 @@
 6. **🌐 Access the application:**
 
    Open your browser and go to `http://127.0.0.1:8000` to see the "Hello, World!" message.
+
+---
+
+For more information on how to use FastAPI, visit the [official FastAPI documentation](https://fastapi.tiangolo.com/).
