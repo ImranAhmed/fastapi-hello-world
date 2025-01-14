@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-- Ensure you have [Visual Studio Code](https://code.visualstudio.com/) installed.
+- Ensure you have [Visual Studio Code](https://code.visualstudio.com/) installed or one of its alternatives like [cursor](https://www.cursor.com/).
 - Install the Python extension for VSCode, which provides support for Python development, including debugging.
 
 ## Steps to Debug

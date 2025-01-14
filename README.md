@@ -14,12 +14,14 @@
    - **Using Command Prompt:**
 
      ```bash
+     python -m venv venv
      venv\Scripts\activate
      ```
 
    - **Using PowerShell:**
 
      ```bash
+     python -m venv venv
      .\venv\Scripts\Activate.ps1
      ```
 
@@ -32,10 +34,11 @@
    - **Using Git Bash:**
 
      ```bash
+     python -m venv venv
      source venv/Scripts/activate
      ```
 
-3. **⬆️ Download Latest Python Version:**
+3. **⬇️ Download Latest Python Version:**
 
    - Go to the [official Python website](https://www.python.org/downloads/).
    - Download the latest Python installer for Windows.
@@ -80,5 +83,9 @@
 ---
 
 For more information on how to use FastAPI, visit the [official FastAPI documentation](https://fastapi.tiangolo.com/).
+
+## 🐞 Debugging
+
+For instructions on how to debug the FastAPI application using VSCode, please refer to the [DEBUG.md](DEBUG.md) file.
 
 By following these steps, you can ensure that new developers use the correct Python version for your project.
