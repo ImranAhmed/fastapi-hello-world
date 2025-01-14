@@ -35,7 +35,23 @@
      source venv/Scripts/activate
      ```
 
-3. **⬆️ Upgrade `pip`:**
+3. **⬆️ Download Latest Python Version:**
+
+   - Go to the [official Python website](https://www.python.org/downloads/).
+   - Download the latest Python installer for Windows.
+   - **Run the Installer:**
+     - Double-click the downloaded installer.
+     - Make sure to check the box that says "Add Python to PATH" before clicking "Install Now."
+   - **Verify the Installation:**
+
+     - Open a new command prompt or terminal.
+     - Run the following command to verify the installation:
+
+       ```bash
+       python --version
+       ```
+
+4. **⬆️ Upgrade `pip`:**
 
    Before installing dependencies, ensure `pip` is up to date:
 
@@ -43,7 +59,7 @@
    python -m pip install --upgrade pip
    ```
 
-4. **📦 Install the dependencies:**
+5. **📦 Install the dependencies:**
 
    If you encounter SSL certificate issues, you can use the `--trusted-host` option:
 
@@ -51,16 +67,18 @@
    pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org -r requirements.txt
    ```
 
-5. **🏃‍♂️ Run the FastAPI application:**
+6. **🏃‍♂️ Run the FastAPI application:**
 
    ```bash
    uvicorn main:app --reload
    ```
 
-6. **🌐 Access the application:**
+7. **🌐 Access the application:**
 
    Open your browser and go to `http://127.0.0.1:8000` to see the "Hello, World!" message.
 
 ---
 
 For more information on how to use FastAPI, visit the [official FastAPI documentation](https://fastapi.tiangolo.com/).
+
+By following these steps, you can ensure that new developers use the correct Python version for your project.
